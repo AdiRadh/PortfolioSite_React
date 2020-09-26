@@ -1,7 +1,7 @@
 ---
 id: 4
-image: './employeems.PNG'
-title: "Employee Management System"
-category: "Java"
-link: "https://github.com"
+image: './python-arcade.PNG'
+title: "Python Arcade"
+category: "Python"
+link: "https://github.com/AdiRadh/arcade-things"
 ---

@@ -1,7 +1,7 @@
 ---
 id: 2
-image: './mediaplayer.PNG'
-title: "Python Media Player"
-category: "Python"
-link: "https://github.com"
+image: './dashboard.PNG'
+title: "ASP.NET Core Admin and eCommerce Dashboard"
+category: "C# + ASP.NET Core"
+link: "https://github.com/AdiRadh/admin-master-aspnetcore"
 ---
