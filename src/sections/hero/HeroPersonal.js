@@ -181,7 +181,7 @@ class HeroPersonal extends React.Component {
                                 }}
                             />
                         </Type>
-                        <Resume href="/img/Adithya_Radhakrishnan_resume.docx">
+                        <Resume href="/img/Adithya_Radhakrishnan_CV.docx">
                             Download Resume
                         </Resume>
                     </HeadingBox>
