@@ -1,11 +1,11 @@
 var plugins = [{
-      plugin: require('D:/Projects/PortfolioSite/Abstract/abstract/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
+      plugin: require('D:/Projects/PortfolioSite/Git_version/PortfolioSite_React/node_modules/gatsby-plugin-google-fonts/gatsby-ssr'),
       options: {"plugins":[],"fonts":["Teko","Poppins:300,400,500,600,700"],"display":"swap"},
     },{
-      plugin: require('D:/Projects/PortfolioSite/Abstract/abstract/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
+      plugin: require('D:/Projects/PortfolioSite/Git_version/PortfolioSite_React/node_modules/gatsby-plugin-styled-components/gatsby-ssr'),
       options: {"plugins":[],"minify":false,"transpileTemplateLiterals":false,"pure":false,"ssr":true},
     },{
-      plugin: require('D:/Projects/PortfolioSite/Abstract/abstract/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('D:/Projects/PortfolioSite/Git_version/PortfolioSite_React/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
