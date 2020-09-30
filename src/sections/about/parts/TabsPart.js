@@ -78,8 +78,11 @@ class TabsPart extends React.Component {
         return(
             <TabContainer>
                 <TabSelectors>
-                    <TabSelector className={this.state.tab === "skills" ? "active" : ""} onClick={() => this.setState({tab: "skills"})}>
-                        Skills
+                    <TabSelector className={this.state.tab === "languages" ? "active" : ""} onClick={() => this.setState({tab: "skills"})}>
+                        Languages
+                    </TabSelector>
+                    <TabSelector className={this.state.tab === "technologies" ? "active" : ""} onClick={() => this.setState({tab: "skills"})}>
+                        Technologies
                     </TabSelector>
                     <TabSelector className={this.state.tab === "experience" ? "active" : ""} onClick={() => this.setState({tab: "experience"})}>
                         Experience
