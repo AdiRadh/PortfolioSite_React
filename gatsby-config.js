@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: 'Adithya Radhakrishnan',
     description:
-      'Abstract is a beautiful template built using React and Gatsby for creative agency or personal projects',
+      'A react portfolio site for Adithya Radhakrishnan',
   },
   pathPrefix: '/',
   plugins: [
