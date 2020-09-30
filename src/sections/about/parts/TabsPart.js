@@ -136,15 +136,16 @@ class TabsPart extends React.Component {
                             display: this.state.tab === "education" ? "block" : "none"
                         }}>
                         <Timeline data={{
-                                "2014 - 2016" :  {
+
+                          "2016 - 2019" : {
+                              title: "Software Engineering (BSc Hons)",
+                              institution: "Swansea University",
+                              description: "Graduated with First Class Honors. 3rd Year Student Representative. Represented as part of a team for NHS Wales hackathon. Final year project: A Land Registry Solution using Hyperledger Fabric and Docker, and an alternative option using Ethereum. Designed and developed a Blockchain system, smart contracts, and REST API and website (React.JS) which was hosted on AWS Cloud"
+                          },
+                          "2014 - 2016" :  {
                                     title: "College",
                                     institution: "North Bristol Post 16",
                                     description: "A-Level specialisation: Computing, Mathematics, and Biology"
-                                },
-                                "2016 - 2019" : {
-                                    title: "Software Engineering (BSc Hons)",
-                                    institution: "Swansea University",
-                                    description: "Graduated with First Class Honors. 3rd Year Student Representative. Represented as part of a team for NHS Wales hackathon. Final year project: A Land Registry Solution using Hyperledger Fabric and Docker, and an alternative option using Ethereum. Designed and developed a Blockchain system, smart contracts, and REST API and website (React.JS) which was hosted on AWS Cloud"
                                 },
                             }
                         }
