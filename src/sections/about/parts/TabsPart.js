@@ -90,15 +90,27 @@ class TabsPart extends React.Component {
                 </TabSelectors>
                 <Tabs>
                     <Tab style={{
-                        display: this.state.tab === "skills" ? "block" : "none"
+                        display: this.state.tab === "languages" ? "block" : "none"
                     }}>
-                        <Progress value={90} text=".NET" />
+                        <Progress value={90} text="C#" />
                         <Progress value={80} text="Java" />
-                        <Progress value={80} text="React" />
+                        <Progress value={80} text="Javascript" />
                         <Progress value={80} text="SQL" />
                         <Progress value={60} text="Python" />
                         <Progress value={70} text="C++" />
-                        <Progress value={60} text="Node" />
+                    </Tab>
+                </Tabs>
+                <Tabs>
+                    <Tab style={{
+                        display: this.state.tab === "technologies" ? "block" : "none"
+                    }}>
+                        <Progress value={90} text=".NET" />
+                        <Progress value={90} text="ASP.NET" />
+                        <Progress value={80} text=".NET Core" />
+                        <Progress value={80} text="React" />
+                        <Progress value={80} text="Node" />
+                        <Progress value={80} text="Angular" />
+                        <Progress value={60} text="Django" />
                     </Tab>
                 </Tabs>
                 <Tabs>
