@@ -110,9 +110,9 @@ class TabsPart extends React.Component {
                         <Progress value={90} text=".NET" />
                         <Progress value={90} text="ASP.NET" />
                         <Progress value={80} text=".NET Core" />
-                        <Progress value={80} text="React" />
+                        <Progress value={70} text="React" />
                         <Progress value={80} text="Node" />
-                        <Progress value={80} text="Angular" />
+                        <Progress value={70} text="Angular" />
                         <Progress value={60} text="Django" />
                     </Tab>
                 </Tabs>
