@@ -15,7 +15,7 @@ class AboutPersonal extends React.Component {
     }
 
     render() {
-        const Section = styled.section`
+        const Section = styled.section `
             position: relative;
             overflow: hidden;
             background-color: #050505;
@@ -33,7 +33,8 @@ class AboutPersonal extends React.Component {
             }
         `
 
-        const CounterRow = styled(Row)`
+        const CounterRow = styled(Row)
+        `
             margin-top: 100px;
             background-color: #000;
             padding: 100px 0;
@@ -43,14 +44,15 @@ class AboutPersonal extends React.Component {
 
         `
 
-        const AboutContainer = styled(Container)`
+        const AboutContainer = styled(Container)
+        `
             padding: 100px 0;
             @media (max-width: 500px) {
                 padding: 50px 0;
             }
         `
 
-        const CounterComponent = styled.div`
+        const CounterComponent = styled.div `
             margin: 10px 0;
             text-align: center;
             @media (max-width:767px) {
@@ -79,7 +81,8 @@ class AboutPersonal extends React.Component {
 
         `
 
-        const LeftCol = styled(Col)`
+        const LeftCol = styled(Col)
+        `
             display: flex;
             align-items: baseline;
             justify-content: center;
@@ -89,7 +92,7 @@ class AboutPersonal extends React.Component {
         `
 
 
-        const AnimatedShadow = keyframes`
+        const AnimatedShadow = keyframes `
             0%   {box-shadow: 0 28px 60px rgba(4, 229, 229, .5);}
             10%  {box-shadow: 0 28px 60px rgba(243, 112, 85, .5);}
             20%  {box-shadow: 0 28px 60px rgba(239, 78, 123, .5);}
@@ -102,7 +105,7 @@ class AboutPersonal extends React.Component {
             90% {box-shadow: 0 28px 60px rgba(16, 152, 173, .5);}
             100% {box-shadow: 0 28px 60px rgba(243, 112, 85, .5);}
         `
-        const ImageContainer = styled.div`
+        const ImageContainer = styled.div `
             border-radius: 20px;
             overflow: hidden;
             animation: ${AnimatedShadow} 10s infinite alternate;
@@ -111,7 +114,7 @@ class AboutPersonal extends React.Component {
             }
         `
 
-        const Image = styled.img`
+        const Image = styled.img `
             max-width: 400px;
             @media (max-width: 767px) {
                 max-width: 200px;
@@ -121,82 +124,115 @@ class AboutPersonal extends React.Component {
             }
         `
 
-        const Separator = styled.div`
+        const Separator = styled.div `
             height: 5px;
             width: 50px;
             background-color: #04e5e5;
             margin-bottom: 20px;
         `
 
-        const Heading = styled.h2`
+        const Heading = styled.h2 `
             font-size: 70px;
             font-family: Teko;
             color: #fff;
             line-height: 50px;
         `
 
-        const Text = styled.p`
+        const Text = styled.p `
             font-size: 12px;
             font-weight: 300;
             color: #c5c5c5;
         `
 
-        return(
-            <Section id="about">
-                <AboutContainer>
-                    <Row>
-                        <LeftCol md={6}>
-                            <AnimationContainer animation="fadeIn">
-                                <ImageContainer>
-                                    <RevealContent delay={500}>
-                                        <Image src={this.props.image.childImageSharp.fluid.src} alt="about" />
-                                    </RevealContent>
-                                </ImageContainer>
-                            </AnimationContainer>
-                        </LeftCol>
-                        <Col md={6}>
-                            <AnimationContainer animation="fadeIn">
-                                <Heading>About Me</Heading>
-                                <Separator />
-                                <Text>
-                                    A young Software Engineer looking to learn new things, do cool stuff, and kick ass.
-                                    Experienced with Web Technologies, and always gaining new skills.
-                                    React, .NET, Java and C++ main technologies, with some experience with Python and Golang.
-                                    Well versed in maintaining complex web-based infastructures at a server-level.
-                                </Text>
-                                <TabsPart />
-                            </AnimationContainer>
-                        </Col>
-                    </Row>
-                </AboutContainer>
-                <CounterRow>
-                    <Container>
-                        <Row>
-                            <Col md={10}>
-                                <AnimationContainer animation="fadeIn" delay={1000}>
-                                    <CounterComponent>
-                                        <Counter value={2} duration={5} delay={1000} symbol="+" text="2 Years of Experience" animation={true} />
-                                    </CounterComponent>
-                                </AnimationContainer>
-                            </Col>
-                            <Col md={10}>
-                                <AnimationContainer animation="fadeIn" delay={1000}>
-                                    <CounterComponent>
-                                        <Counter value={5} duration={5} delay={1000} symbol="+" text="Clients Worked With" animation={true} />
-                                    </CounterComponent>
-                                </AnimationContainer>
-                            </Col>
-                        </Row>
-                    </Container>
-                </CounterRow>
-            </Section>
+        return ( <
+            Section id = "about" >
+            <
+            AboutContainer >
+            <
+            Row >
+            <
+            LeftCol md = { 6 } >
+            <
+            AnimationContainer animation = "fadeIn" >
+            <
+            ImageContainer >
+            <
+            RevealContent delay = { 500 } >
+            <
+            Image src = { this.props.image.childImageSharp.fluid.src }
+            alt = "about" / >
+            <
+            /RevealContent> <
+            /ImageContainer> <
+            /AnimationContainer> <
+            /LeftCol> <
+            Col md = { 6 } >
+            <
+            AnimationContainer animation = "fadeIn" >
+            <
+            Heading > About Me < /Heading> <
+            Separator / >
+            <
+            Text >
+            A young Software Engineer looking to learn new things, do cool stuff, and kick ass.
+            Experienced with Web Technologies, and always gaining new skills.React, .NET, Java and C++main technologies, with some experience with Python and Golang.Well versed in maintaining complex web - based infastructures at a server - level. <
+            /Text> <
+            TabsPart / >
+            <
+            /AnimationContainer> <
+            /Col> <
+            /Row> <
+            /AboutContainer> <
+            CounterRow >
+            <
+            Container >
+            <
+            Row >
+            <
+            Col md = { 10 } >
+            <
+            AnimationContainer animation = "fadeIn"
+            delay = { 1000 } >
+            <
+            CounterComponent >
+            <
+            Counter value = { 3 }
+            duration = { 5 }
+            delay = { 1000 }
+            symbol = "+"
+            text = "3 Years of Experience"
+            animation = { true }
+            /> <
+            /CounterComponent> <
+            /AnimationContainer> <
+            /Col> <
+            Col md = { 10 } >
+            <
+            AnimationContainer animation = "fadeIn"
+            delay = { 1000 } >
+            <
+            CounterComponent >
+            <
+            Counter value = { 15 }
+            duration = { 5 }
+            delay = { 1000 }
+            symbol = "+"
+            text = "Clients Worked With"
+            animation = { true }
+            /> <
+            /CounterComponent> <
+            /AnimationContainer> <
+            /Col> <
+            /Row> <
+            /Container> <
+            /CounterRow> <
+            /Section>
         )
     }
 }
 
-export default props => (
-    <StaticQuery
-      query={graphql`
+export default props => ( <
+        StaticQuery query = { graphql `
       query {
         image: file(relativePath: {eq: "about-me.jpg"}) {
           childImageSharp {
@@ -206,7 +242,9 @@ export default props => (
           }
         }
       }
-      `}
-      render={({ image }) => <AboutPersonal  image={image} {...props} />}
-    />
-  )
+      ` }
+        render = {
+            ({ image }) => < AboutPersonal image = { image } {...props }
+            />} /
+            >
+        )
